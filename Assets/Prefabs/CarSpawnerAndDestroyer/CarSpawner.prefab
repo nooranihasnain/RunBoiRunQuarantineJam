@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3170484617179111397
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3170484617179111396}
+  - component: {fileID: 3170484617179111399}
+  - component: {fileID: 3170484617179111398}
+  m_Layer: 0
+  m_Name: CarSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3170484617179111396
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3170484617179111397}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &3170484617179111399
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3170484617179111397}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 2, z: 4}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3170484617179111398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3170484617179111397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd3e0b49d5d857240bf9a176b9e3d382, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TrafficVehicles:
+  - {fileID: 7699514106463811941, guid: 087708082f8ed9740b1aac6347df395b, type: 3}
+  - {fileID: 1869014968370851306, guid: 540429d7180b21f4b87aa1156d609e47, type: 3}
+  - {fileID: 1611622983171037027, guid: 7c3f82aed6482904fb8ad0b15e713921, type: 3}
+  - {fileID: 643115537544189078, guid: 7102ec954efbb7c4ea5945814298d81e, type: 3}
+  - {fileID: 5290956340445117959, guid: 240510bdd7749494c8549e4cd6c5894e, type: 3}
+  - {fileID: 5046880105332545769, guid: 7ef995a76c8ac4147989b5d08bc38302, type: 3}
+  - {fileID: 5367116582048108977, guid: 9736349f171c2ca4db994a6f25208e98, type: 3}
+  SpawnDelay: 1.4
